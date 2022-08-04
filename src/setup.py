@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='setup_py',
+    name='test_package',
     version='1.0',
     packages=find_packages(),
     install_requires=[
-        'google-api-core==1.31.3',
+        'google-api-core',
         'google-auth==1.35.0',
         'google-cloud-bigquery==1.28.0',
         'google-cloud-core==1.7.2',
