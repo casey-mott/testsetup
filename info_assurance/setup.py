@@ -11,9 +11,9 @@ setup(
         'google-cloud-core==1.7.2',
         'google-resumable-media==1.3.3',
         'googleapis-common-protos==1.52.0',
-        'numpy==1.20.1',
-        'pandas==1.2.4',
+        'numpy>1.16',
+        'pandas>0.23',
         'pytz==2021.1',
-        'PyYAML==6.0'
+        'PyYAML>5.3'
     ]
 )
