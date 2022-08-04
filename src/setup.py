@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='info_assurance_package',
-    version='1.3',
+    version='1.3.1',
     packages=find_packages(),
     install_requires=[
         'google-api-core==1.31.3',
