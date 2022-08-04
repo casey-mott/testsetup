@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='info_assurance_package',
-    version='1.5',
+    name='casey_test_package',
+    version='1.5.1',
     packages=find_packages(),
     install_requires=[
         'google-api-core==1.31.3',
