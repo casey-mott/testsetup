@@ -4,6 +4,11 @@ setup(
     name='test_package',
     version='1.0',
     packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'my_start=my_package.__main__:main',
+        ]
+    },
     install_requires=[
         'google-api-core==1.31.3',
         'google-auth==1.35.0',
