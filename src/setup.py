@@ -13,7 +13,6 @@ setup(
         'googleapis-common-protos==1.52.0',
         'numpy==1.20.1',
         'pandas==1.2.4',
-        'protobuf==3.17.0',
         'pytz==2021.1',
         'PyYAML==6.0'
     ]
